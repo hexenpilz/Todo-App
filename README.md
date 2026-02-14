@@ -1,33 +1,29 @@
 # 📝 Flask To‑Do App
 
-Eine einfache, moderne To‑Do‑Webanwendung auf Basis von **Flask**, **SQLAlchemy** und **Bootstrap**.  
-Die App bietet sowohl eine klassische HTML‑Oberfläche als auch eine vollständige **REST‑API**.
+A simple and modern To‑Do web application built with **Flask**, **SQLAlchemy**, and **Bootstrap**.  
+The app provides both a clean HTML interface and a fully functional **REST API**.
 
 ---
 
 ## 🚀 Features
 
-- Aufgaben erstellen, abhaken und löschen  
-- Moderne UI mit Bootstrap 5 und Bootstrap Icons  
-- SQLite‑Datenbank (lokal, ohne Setup)  
-- Vollständige REST‑API:
+- Create, toggle, and delete tasks  
+- Modern UI using Bootstrap 5 and Bootstrap Icons  
+- SQLite database (no setup required)  
+- Full REST API:
   - `GET /api/todos`
   - `POST /api/todos`
   - `PATCH /api/todos/<id>`
   - `DELETE /api/todos/<id>`
-- Saubere Projektstruktur  
-- Läuft ohne zusätzliche Konfiguration
+- Clean and minimal project structure  
+- Runs out of the box
 
 ---
 
-## 📁 Projektstruktur
-todo_app/ 
-│ 
-├── app.py 
-├── models.py 
-├── requirements.txt 
-│ └── templates/ 
-    └── index.html
+## 📁 Project Structure
+
+todo_app/ │ ├── app.py ├── models.py ├── requirements.txt │ └── templates/ └── index.html
+
 
 ---
 
